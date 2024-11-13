@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.container-encabezado{ 
+    background-color:red ;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.encabezado{
+    display: flex;
+    padding-top: .6em;
+}
+.container-listas{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.login,.carrito{
+    text-decoration: none;
+    color: white;
+}
+.container-listas li{
+    /* padding-right:1em ; */
+    margin-right: 1em;
+}
+.input-busqueda{
+    padding: 1em;
+    border-radius: 2em;
+    width: 25rem;
+}
