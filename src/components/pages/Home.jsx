@@ -1,12 +1,13 @@
-import { API_URL } from "../../constants/env"
 import MainHeader from "../organismos/MainHeader"
+import MainBody from "../organismos/MainBody"
+import MainFooter from "../organismos/MainFooter"
+
 function Home() {
   return(
     <>
       <MainHeader/>
-      {/* <div>
-        <h1>Hola {API_URL}</h1>
-      </div> */}
+      <MainBody/>
+      <MainFooter/>
     </>
   )
 }
