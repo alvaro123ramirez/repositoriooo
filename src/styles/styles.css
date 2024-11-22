@@ -218,6 +218,42 @@ body{
     margin: 1em;
 }
 
+.container-padre-formulario{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-form{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 1.5em;
+}
+.container-formulario{
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: .5em;
+}
+.container-input-1-form{
+    margin-bottom: 1em;
+}
+.container-boton-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.container-boton-form button{
+    background-color: red;
+    color: white;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: .5em;
+    border-width: 0;
+}
+
 
 
 /* .container-mosaicos-productos div{
