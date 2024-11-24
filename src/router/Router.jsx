@@ -3,6 +3,7 @@ import Home from "../components/pages/Home.jsx"
 import Carrito from "../components/pages/Carrito.jsx"
 import Error404 from "../components/pages/Error404.jsx"
 import Login from "../components/pages/Login.jsx"
+import DetallesProducto from "../components/moleculas/header/DetallesProducto.jsx"
 
 const router = createBrowserRouter([
     {
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
         path:"/login",
         element:<Login/>,
         errorElement: <Error404/>
+    },
+    {
+        path:"/detalles-producto",
+        element:<DetallesProducto/>,
+        errorElement:<Error404/>
     }
 
 ])

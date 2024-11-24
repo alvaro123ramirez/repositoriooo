@@ -19,7 +19,7 @@ const MainMenu = () => {
                 </li>
                 <li className="ubicacion"><img src="src/images/imagen-ubicacion.png" alt="ubicacion" /></li>
                 <li className="login" id="login">
-                    <Link to="login"><img src="src/images/imagen-iniciar-sesion.png" alt="iniciar-sesion" /></Link>
+                    <Link to="/login"><img src="src/images/imagen-iniciar-sesion.png" alt="iniciar-sesion" /></Link>
                     {/* <div className="container-inicio">{array.map((m, index) => <div key={index} className="container-inicio-sesion" >{m}</div> )}</div> */}
                 </li>
                 <li><Link to="/carrito" className="carrito"><img src="src/images/imagen-carrito.png" alt="carrito" /></Link></li>
