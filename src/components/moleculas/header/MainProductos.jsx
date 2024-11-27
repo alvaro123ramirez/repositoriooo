@@ -1,10 +1,8 @@
-import { Link, useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const MainProductos = () => {
     
-    let navigate = useNavigate()
-
-    const listarProductos = productos.map( (prod, index) => <div key={index} onClick={()=>navigate(`/detalles-producto/${index}`)}><img src={prod.url} alt="" /></div>)    
+    const listarProductos = productos.map( (prod, index) => <div key={index}><Link to={`/detalles-producto/:${index}`}  ><img src={prod.url} alt="" /></Link></div>)    
     return (
         <div className="container-principal-productos">
             <div className="container-parrafo-productos">
